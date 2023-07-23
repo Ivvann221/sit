@@ -1,0 +1,23 @@
+@import "reset_style.scss";
+@import "base/func";
+@import "base/variables";
+@import "fonts/font";
+
+
+@import "../css/bootstrap.min.css";
+//@import "libs/slick-theme.scss";
+@import "libs/slick.scss";
+
+
+@import "components/header";
+@import "components/slider";
+@import "components/category";
+@import "components/products";
+@import "components/best";
+@import "components/ideas";
+@import "components/search";
+@import "components/sing";
+@import "components/footer";
+
+
+

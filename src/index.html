@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEMPLATE</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+
+<style>
+    .container {
+        max-width: 1300px;
+        margin: 0px auto;
+        overflow: hidden;
+        padding: 0px 10px;
+
+    }
+
+    audio{
+        opacity: 0;
+        position: absolute;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        @@include("components/_header.html")
+        @@include("components/_slider.html")
+        @@include("components/_category.html")
+        @@include("components/_products.html")
+        @@include("components/_best.html")
+        @@include("components/_ideas.html")
+        @@include("components/_search.html")
+        @@include("components/_sing.html")
+           
+    </div>
+    @@include("components/_footer.html") 
+
+     <!-- <audio id="myaudio" src="../img/music.mp3" controls autoplay>  -->
+
+
+    @@include("icons/_icons.html")
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
